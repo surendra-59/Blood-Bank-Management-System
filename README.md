@@ -19,8 +19,7 @@ Backend	Python, Django
 Frontend	HTML, CSS, JavaScript, Bootstrap
 Database	MySQL
 DevTools	VS Code, Git, GitHub
-Server (Local)	Django Dev Server / XAMPP
-Others	Excalidraw, Draw.io
+Server (Local)	Django Dev Server
 
 🔐 Roles & Features
 🔑 Admin
@@ -67,44 +66,39 @@ Secure Authentication & Session Handling
 bash
 Copy
 Edit
-# 1. Clone the repo
+### 1. Clone the repo
 git clone https://github.com/Surendra-59/bloodbank.git
 cd bloodbank
 
-# 2. Setup virtual environment
+### 2. Setup virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# 3. Install dependencies
+### 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Run migrations
+### 4. Run migrations
 python manage.py makemigrations
 python manage.py migrate
 
-# 5. Create superuser (admin)
+### 5. Create superuser (admin)
 python manage.py createsuperuser
 
-# 6. Start the server
+### 6. Start the server
 python manage.py runserver
+---
 📷 Screenshots
 ![Screenshot](images/p1.png)
+
 ![Screenshot](images/p2.png)
+
 ![Screenshot](images/p3.png)
+
 ![Screenshot](images/p4.png)
+
 ![Screenshot](images/p5.png)
+
 ![Screenshot](images/p6.png)
 
-
-Admin Dashboard
-
-Donor BMI Validation
-
-Hospital Blood Request Form
-
-Blog Page
-
-📬 Contact / Contribute
-Pull requests are welcome! For major changes, open an issue first to discuss what you'd like to change.
 
 GitHub: Surendra-59/bloodbank
